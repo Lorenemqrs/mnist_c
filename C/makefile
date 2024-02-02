@@ -8,7 +8,7 @@ CFLAGS = -Wall -std=c99
 
 # Source files
 COMMON_SRC = Bmp2Matrix.c
-MAIN_SRC = main.c
+MAIN_SRC = modele.c
 PREPROCESS_SRC = preprocess.c
 
 # Output executable
