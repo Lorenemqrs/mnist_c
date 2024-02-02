@@ -15,10 +15,19 @@ The C code is responsible for loading images, processing them, and performing in
 
 ### Build and Run
 
+```bash
+cd C
+```
+
 Run an inference on .bmp image with : 
 
 ```bash
 make ARGS="your/path/image.bmp" run
+```
+
+For example : 
+```bash
+make ARGS="dataset/3/3_0.bmp" run
 ```
 
 Preprocess .bmp dataset with : 
@@ -47,6 +56,7 @@ The Python code is responsible for training a neural network using the Keras lib
 Navigate to the `Python` directory and run:
 
 ```bash
+cd python
 pip install -r requirements.txt
 ```
 
